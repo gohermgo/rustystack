@@ -1,9 +1,9 @@
 [submodule "backend"]
 	path = backend
-	url = https://github.com/gohermgo/rustystack-backend
+	url = git@github.com:gohermgo/rustystack-backend.git
 [submodule "ui"]
 	path = ui
-	url = https://github.com/gohermgo/rustystack-ui
+	url = git@github.com:gohermgo/rustystack-ui.git
 [submodule "common"]
 	path = common
-	url = https://github.com/gohermgo/rustystack-common
+	url = git@github.com:gohermgo/rustystack-common.git
