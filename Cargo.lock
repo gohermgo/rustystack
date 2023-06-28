@@ -63,10 +63,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d468802bab17cbc0cc575e9b053f41e72aa36bfa6b7f55e3529ffa43161b97fa"
 
 [[package]]
-name = "backend"
-version = "0.1.0"
+name = "rustystack-backend"
+version = "0.1.1"
 dependencies = [
- "common",
+ "rustystack-common",
  "rocket",
  "serde",
 ]
@@ -135,7 +135,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
-name = "common"
+name = "rustystack-common"
 version = "0.1.0"
 
 [[package]]
@@ -1624,10 +1624,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "ui"
+name = "rustystack-ui"
 version = "0.1.0"
 dependencies = [
- "common",
+ "rustystack-common",
  "log",
  "pulldown-cmark",
  "reqwasm",
