@@ -1,8 +1,9 @@
 # rustystack
-a website stack made entirely with rust, and tailwindcss
+a tech stack made entirely with rust, with the frontend comprised of dioxus with formantic for styling, and the backend based on rocket-rs.
+
 ***
 ## submodules
-- backend located at [backend-repo](https://github.com/gohermgo/rustystack-backend)
-- ui located at [ui-repo](https://github.com/gohermgo/rustystack-ui)
-- common located at [common-repo](https://github.com/gohermgo/rustystack-common)
+- [backend repo](https://github.com/gohermgo/rustystack-backend)
+- [frontend repo](https://github.com/gohermgo/rustystack-ui)
+- [common/library repo](https://github.com/gohermgo/rustystack-common)
 ***
